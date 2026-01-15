@@ -1,0 +1,260 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.d-heropanel .hero-banner {
+    width: 50%;
+}
+
+.d-heropanel .hero-content {
+    bottom: 20px;
+}
+
+.d__top .d__content {
+    display: flex;
+    gap: 16px;
+    /* align-items: center; */
+}
+
+.d__top .d__name {
+    font-size: 1.8vw;
+    color: #fff;
+}
+
+.d__top .d__categories {
+    text-align: right;
+    float: right;
+}
+
+.d__top .genres {
+    margin: 0;
+    padding: 0;
+}
+
+.d__top .icons {
+    margin: 10px 0 0 0;
+}
+
+.d__top .genre-item {
+    font-size: 1.2vw;
+    color: #7e7e7e;
+    font-weight: 300;
+}
+
+.d__top .white {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: #fff;
+}
+
+.d__top .d__desc {
+    color: #fff;
+    font-size: 1.02vw;
+    font-weight: 200;
+    width: 70%;
+    /* opacity: 0.8; */
+}
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #52526B;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    min-width: 200px;
+
+}
+
+.custom-dropdown::after {
+    content: "▼";
+    font-size: 9px;
+    margin-left: 90px;
+    vertical-align: middle;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    background-color: #52526B;
+    border-radius: 6px;
+    margin-top: 5px;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-options a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.dropdown-options a:hover {
+    background-color: #d2d2d2;
+    color: #202229;
+    transition: background 0.3s ease;
+}
+
+.custom-dropdown:hover .dropdown-options {
+    display: block;
+}
+
+/* Scrollable container only */
+.d__content_scrollable {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.d__content_scrollable::-webkit-scrollbar {
+    width: 3px;
+}
+
+.d__content_scrollable::-webkit-scrollbar-thumb {
+    background-color: #555;
+    /* border-radius: 4px; */
+}
+
+.d__content_scrollable::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+.d__episodes .col-2 {
+    padding: 0;
+}
+
+/* 
+.d__episodes {
+    min-height: 400px;
+    overflow-y: scroll;
+} */
+
+/* .d__episodes .vc_title {
+    margin: 0 0 20px 0;
+} */
+
+.d__episodes .d__episodes_content {
+    padding: 25px 20px;
+    border-bottom: 1px solid #404040;
+}
+
+.d__episodes .d__episodes_content:hover {
+    background-color: #202229;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.d__episodes .d__epi_num {
+    color: #d2d2d2;
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: 600;
+}
+
+.d__episodes .d__content_img {
+    position: relative;
+}
+
+.d__episodes .d_play {
+    display: none;
+    position: absolute;
+    left: 85px;
+    top: 30px;
+}
+
+.d__episodes .d__episodes_content:hover .d_play {
+    display: block;
+}
+
+.d__episodes .d__epi-details {
+    padding: 12px 35px 12px 25px;
+}
+
+.d_details {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.d__episodes .d__desc {
+    margin: 0;
+    padding: 20px 0;
+    width: 950px;
+    color: #D2D2D2;
+    font-size: 1.05vw;
+    font-weight: 300;
+}
+
+.d__dramas .all-btn button {
+    color: #fff;
+}
+
+.d__drama_cat {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0 0 0;
+}
+
+.d__drama_cat .d__cat {
+    position: relative;
+}
+
+.d__dramas .tag {
+    top: 15px;
+    left: 15px;
+}
+
+
+.hero-section .prev_btn {
+    position: absolute;
+    top: -350px;
+    left: 80px;
+}
+
+.hero-section .prev_btn a {
+    text-decoration: none;
+    /* font-size: 26px; */
+}
+
+.comedy__section .c__show_cats img {
+    width: 100%;
+}
+
+.comedy__section .com__shows {
+    margin: 20px 0 0 0;
+}
+
+.comedy__section .c__show-cats {
+    position: relative;
+}
+
+.comedy__section .tag {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.comedy__section .btn-play {
+    width: 13%;
+    text-align: center;
+}
